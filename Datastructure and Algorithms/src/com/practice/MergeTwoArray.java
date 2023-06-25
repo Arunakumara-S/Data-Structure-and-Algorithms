@@ -4,7 +4,9 @@ import java.util.Arrays;
 
 public class MergeTwoArray {
 	public static void main(String[] args) {
-		int firstArray[] =  { 1, 3, 4, 5}, secondArray[] = {2, 4, 6, 8} ;
+		//Two different Arrays
+		int firstArray[] =  { 1, 3, 4, 5};
+		int	secondArray[] = {2, 4, 6, 8} ;
 		int size = firstArray.length + secondArray.length;
 		int result[] = new int[size];
 		Arrays.sort(firstArray);

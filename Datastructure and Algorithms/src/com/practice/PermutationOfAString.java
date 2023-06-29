@@ -7,6 +7,7 @@ public class PermutationOfAString {
 		
 	}
 	public static void permute(String str, String ans) {
+//		String ans = " ";
 		if(str.length() == 0) {
 			System.out.println(ans + " ");
 			return;
